@@ -1,4 +1,4 @@
-Pool Billars Aimer/Line predictor
+Billiards Aimer/Line predictor
 
 About the project:
 The goal of this project was to allow users to take an image of themselves with their poolstick aiming where they intend the hit the white cue ball and in turn show the projected path
