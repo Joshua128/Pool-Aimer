@@ -1,14 +1,16 @@
-Billiards Aimer/Line predictor
+# Billiards Aimer / Line Predictor
 
-About the project:
-The goal of this project was to allow users to take an image of themselves with their poolstick aiming where they intend the hit the white cue ball and in turn show the projected path
-the ball it collides with follows. This was done as listed below:
+## About the Project
+The goal of this project was to allow users to take an image of themselves with their pool stick aiming at the cue ball and visualize the projected path the ball (and subsequent collision target) will follow.
 
--Detect balls using COCO pretrianed models
--Locate the white ball based off mean pixel values
--Detecting the cue stick using canny edges
--Outputting the predicted path using some algebra
+This was achieved using the following steps:
 
-Areas To Improve:
-The detection of the cueball/cuestick is not fully reliable yet, especially in situations where lighting is bad and there is glare.
-Addition of taking spin into account
+- Detect balls using a COCO pretrained model
+- Locate the white cue ball based on mean pixel intensity values
+- Detect the cue stick using Canny edge detection
+- Output the predicted path using geometric algebra
+
+## Areas to Improve
+- Detection of the cue ball and cue stick is not fully reliable yet, especially under poor lighting conditions or glare
+- Addition of spin (English) modeling to improve realism
+
