@@ -5,7 +5,7 @@ The goal of this project was to allow users to take an image of themselves with 
 
 This was achieved using the following steps:
 
-- Detect balls using a COCO pretrained model
+- Detect balls using YOLOv11 pretrained image weights
 - Locate the white cue ball based on mean pixel intensity values
 - Detect the cue stick using Canny edge detection
 - Output the predicted path using geometric algebra
